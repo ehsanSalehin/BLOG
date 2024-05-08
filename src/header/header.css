@@ -1,0 +1,26 @@
+.header{
+    margin-top: 60px;
+}
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.headerTtiles{
+    position: absolute;
+    top:16%;
+    font-size: 20px;
+}
+.headerTitleg{
+    position: absolute;
+    top: 17%;
+    font-size: 100px;
+}
+.headerImg{
+    width: 1500px;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+    margin-left:auto;
+    margin-right:auto;
+}

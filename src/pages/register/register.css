@@ -1,0 +1,54 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(225,225,225,0.5),rgba(225,225,225,0.5)
+    ), url("https://media.istockphoto.com/photos/abstract-blue-watercolor-art-stain-habd-painting-splash-stroke-modern-picture-id1309862328?k=20&m=1309862328&s=612x612&w=0&h=5Jm5Bs5lugi_h7HXjUjeM-9f12iXTjKVz0tyhA1dg-M=");
+    background-size: cover;
+}
+.registerTitle
+{
+    font-size: 50px; 
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label{
+    margin :10px 0px;
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    border: none;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    top:10px;
+    margin-left: 40px;
+}
+.loginButton{
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+    background-color: gold;
+    border: none;
+    color:white;
+    border-radius: 10px;
+    padding: 15px;
+    top:60px;
+    right:20px;
+    font-size: 20px;
+}
